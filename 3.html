@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>WEB1 - JAVASCRIPT</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S44QQKQ4E3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S44QQKQ4E3');
+    </script>
+    <title>WEB1 - JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+    ";>
+    <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black';
+    ";>
     <h1><a href="index.html">WEB</a></h1>
-<ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JAVASCRIPT</a></li>
-</ol>
-<ul>
-<li>BLOG</li>
-<li>YOUTUBE</li>
-</ul>
-<h2>What is JAVASCRIPT? 뭐지?</h2>
+    <div id="grid2">
+        <div>
+            <ol>
+                <li><a href="1.html">HTML</a></li>
+                <li><a href="2.html">CSS</a></li>
+                <li><a href="3.html">JAVASCRIPT</a></li>
+            </ol>
+            <ul>
+                <li>BLOG</li>
+                <li>YOUTUBE</li>
+            </ul>
+        </div>
+        <div id="article">
+            <h2>What is JAVASCRIPT? 뭐지?</h2>
+            <p>
+            JavaScript (/ˈdʒɑːvəˌskrɪpt/),<a href="https://en.wikipedia.org/wiki/JavaScript" title="javascript wikipedia" target="_blank">[6]</a> often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.[7] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+            </p>
+        </div>
+    </div>
 </body>
 </html>

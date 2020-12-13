@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>WEB1 - html</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S44QQKQ4E3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S44QQKQ4E3');
+    </script>
+    <title>WEB1 - html</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor='black';
+        document.querySelector('body').style.color='white';
+    ";>
+    <input type="button" value="day" onclick="
+        document.querySelector('body').style.backgroundColor='white';
+        document.querySelector('body').style.color='black';
+    ";>
     <h1><a href="index.html">WEB</a></h1>
-<ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JAVASCRIPT</a></li>
-</ol>
-<ul>
-<li>BLOG</li>
-<li>YOUTUBE</li>
-</ul>
-<h2>What is HTML? 뭐지?</h2>
-<p>Hypertext Markup Languate (HTML) is the standard markup language for creating <strong><u>web pages</u> and <u>web applications.</u></strong></p>
-<img src="C:\Users\mmena\Desktop\WEB\photo-1607713244132-5fbf0d594193.jpg" width="50%">
-<p>Upper picture there is the <a href="https://en.wikipedia.org/wiki/Dog" title="dog wikipedia" target="_blank">dog</a>. - Newyork Times</p>
-<p>WASHINGTON -- President Donald Trump signed a temporary government-wide funding bill into law on Friday, averting a federal shutdown at midnight and buying Congress time for on-again, off-again talks on COVID-19 aid.
-    The short-term measure passed the Senate just hours earlier by a unanimous voice vote without much drama and sent senators home for the weekend without a clear picture of what awaits next week. The bill sets a new deadline of midnight next Friday. The House passed the bill Wednesday.
-    The talks are stalled but there is universal agreement that Congress won't adjourn for the year without passing a long-delayed round of pandemic relief. An emerging $900 billion aid package from a bipartisan group of lawmakers hit a rough patch after Senate Majority Leader Mitch McConnell, R-Ky., swung against the effort. Still, negotiations are ongoing and pressure remains intense.
-    The House has recessed for a few days, with leaders warning members to be prepared to return to Washington to vote on the year-end deals.
-    Negotiators on a separate $1.4 trillion omnibus spending bill appeared to be moving in a positive direction, said the chairman of the Senate Appropriations Committee, Sen. Richard Shelby, R-Ala. This bill would serve as a vehicle to carry any year-end virus assistance.
-    “I’m hopeful we’re going to get there on both the omni and the COVID package," McConnell said.
-    Fixing the impasse over the COVID-19 aid package is a Capitol Hill head-scratcher and hard feelings are plentiful. But discussions over issues such as aid to schools are trending well, leadership aides in both parties say.
-    Trump has renewed a push for a fresh round of stimulus checks for Americans, proposing $600 per individual rather than the $1,200 that was sent out this spring. Cost concerns are responsible for the smaller amount.
-    Sending direct cash payments to households was not included in the bipartisan proposal or a lower cost plan from Senate Republicans that has failed twice. The idea of another round of cash but has been embraced by some of the president's fiercest critics — including Rep. Alexandria Ocasio-Cortez, D-N,Y., and Sen. Bernie Sanders, I-Vt.
-    “We're not going to go home for the Christmas holidays unless we make sure that we provide for the millions of families in this country who are suffering," Sanders said.
-</p>
+    <div id="grid2">
+        <div>
+            <ol>
+                <li><a href="1.html">HTML</a></li>
+                <li><a href="2.html">CSS</a></li>
+                <li><a href="3.html">JAVASCRIPT</a></li>
+            </ol>
+            <ul>
+                <li>BLOG</li>
+                <li>YOUTUBE</li>
+            </ul>
+        </div>
+        <div id="article">
+            <h2>What is HTML? 뭐지?</h2>
+            <p>Hypertext Markup Languate (HTML) is the standard markup language for creating <strong><u>web pages</u> and <u>web applications.</u></strong></p>
+            <img src="C:\Users\mmena\Desktop\WEB\photo-1607713244132-5fbf0d594193.jpg" width="50%">
+            <p>Upper picture there is the <a href="https://en.wikipedia.org/wiki/Dog" title="dog wikipedia" target="_blank">dog</a>. - Newyork Times</p>
+            <p>WASHINGTON -- President Donald Trump signed a temporary government-wide funding bill into law on Friday, averting a federal shutdown at midnight and buying Congress time for on-again, off-again talks on COVID-19 aid.
+                The short-term measure passed the Senate just hours earlier by a unanimous voice vote without much drama and sent senators home for the weekend without a clear picture of what awaits next week. The bill sets a new deadline of midnight next Friday. The House passed the bill Wednesday.
+                The talks are stalled but there is universal agreement that Congress won't adjourn for the year without passing a long-delayed round of pandemic relief.
+            </p>
+        </div>
+    </div>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
